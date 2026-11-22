@@ -1,7 +1,6 @@
 package sample2024_2025.sample01;
 
 public class TitleFour {
-
     public static String login(String username, String password) {
         if (isEmpty(username) && isEmpty(password)) {
             return "用户名或密码不能为空";   //题目和文字冲突 这里按题目
