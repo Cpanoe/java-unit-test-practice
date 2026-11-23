@@ -36,5 +36,4 @@ public class TitleTwoTest {
     public void getDaysTrue5() {
         Assert.assertThat(TitleTwo.getDays(1604, 2), equalTo("1604年2月份的天数是29天"));
     }
-
 }
